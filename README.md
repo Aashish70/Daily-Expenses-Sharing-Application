@@ -48,7 +48,7 @@ User Endpoints:
 1. Create user. ---- POST http://localhost:8000/api/v1/user/register
 2. Login user. ---- POST http://localhost:8000/api/v1/user/login
 3. Logout user. ---- POST http://localhost:8000/api/v1/user/logout
-4. Retrieve user details. ---- GET http://localhost:8000/api/v1/user/userId     (Here userId is MongoDB ObjectID)
+4. Retrieve user details. ---- GET http://localhost:8000/api/v1/user/:userId     (Here userId is MongoDB ObjectID)
  
  
  Expense Endpoints:
